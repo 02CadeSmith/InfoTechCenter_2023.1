@@ -4,8 +4,10 @@ Our Welcome Screen will star our progrImport Libraries Here
 import time
 import sys
 """
+import random
 import sys
 import time
+from time import sleep
 
 timeToSleep = 2
 
@@ -28,11 +30,9 @@ while x != 20:
     if x == 20:
         print("\n\nOperating System Loaded - Retina Scanned - Access Granted")
 
-print("******************************************************")
-print("Gasoline Branch\n\n")
-# Import Libraries here
-import random
-from time import sleep
+print("\n******************************************************\n")
+print("Checking current gas levels\n\n")
+sleep(1)
 
 # Function that lists Gas Stations, randomly choosing one, and returning its value
 
@@ -75,5 +75,3 @@ def gasLevelAlert():
 
 
 gasLevelAlert()
-
-
