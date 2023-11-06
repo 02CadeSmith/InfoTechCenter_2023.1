@@ -10,5 +10,5 @@ from time import sleep
 def weather():
     weatherForecast = ["Snowing", "Blizzard", "Rain", "Foggy", "Windy", "Icy", "Sunny", "Cloudy"]
     weatherCondition = random.choice(weatherForecast)
-     return weatherCondition
+    return weatherCondition
     
